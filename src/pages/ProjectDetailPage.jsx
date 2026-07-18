@@ -85,7 +85,7 @@ export function ProjectDetailPage() {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-4 py-2.5 text-sm font-semibold text-ink hover:border-accent hover:text-accent"
+                    className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-4 py-2.5 text-sm font-semibold text-ink hover:border-accent hover:text-accent mt-6"
                   >
                     <IconBrandGithub size={16} stroke={1.75} />
                     GitHub
