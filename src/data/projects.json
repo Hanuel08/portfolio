@@ -92,5 +92,26 @@
       "/images/projects/song-search-search.png"
     ],
     "year": "2026"
+  },
+  {
+    "id": "ak820-keyboard",
+    "name": "AK820 Mechanical Keyboard Simulator & Tester",
+    "shortDescription": "Simulador visual y auditivo del teclado mecánico AK820. Permite escribir con el teclado físico o hacer clic en las teclas virtuales para probar sonidos, efectos de retroiluminación RGB y estadísticas en tiempo real.",
+    "cover": "/images/projects/keyboard-dark.png",
+    "demoUrl": "",
+    "githubUrl": "https://github.com/Hanuel08/keyboard-ak820",
+    "technologies": [
+      { "id": "html", "name": "HTML5", "bg": "#e34f26", "color": "#fff" },
+      { "id": "scss", "name": "SCSS", "bg": "#cc6699", "color": "#fff" },
+      { "id": "javascript", "name": "JavaScript", "bg": "#f7df1e", "color": "#0b1220" },
+      { "id": "tabler", "name": "Tabler Icons", "bg": "#3b82f6", "color": "#fff" }
+    ],
+    "longDescription": "Simulador visual y auditivo del teclado mecánico AK820. Permite escribir con el teclado físico o hacer clic en las teclas virtuales para probar sonidos, efectos de retroiluminación RGB y estadísticas de escritura en tiempo real.\n\nCaracterísticas:\n- Teclado virtual interactivo con diseño fiel al AK820 (TKL + numpad layout)\n- Sonidos de teclas realistas (simple, espacio, enter, backspace)\n- Retroiluminación RGB con 5 modos: RGB Wave (arcoíris animado), Reactive Pulse (responde al teclar), Solid Cyan, Solid Magenta, Backlight Off\n- Soporte de teclado físico con feedback visual sincronizado\n- Modo oscuro / claro con transiciones suaves\n- Estadísticas en tiempo real: WPM y contador de teclas\n- Consola de terminal con texto monoespaciado\n- Controles de volumen con slider y toggle de sonido\n- Indicadores LED (Caps Lock, Win, OS)\n- Atajos de función via teclas F1-F8\n- Toast notifications para feedback de acciones\n\nUso: Abrir index.html en un navegador. No requiere servidor local ni dependencias.",
+    "images": [
+      "/images/projects/keyboard-rgb.png",
+      "/images/projects/keyboard-white.png",
+      "/images/projects/keyboard-dark.png"
+    ],
+    "year": "2026"
   }
 ]
