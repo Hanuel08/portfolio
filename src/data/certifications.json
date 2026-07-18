@@ -1,0 +1,44 @@
+[
+  {
+    "id": "indotel-fullstack",
+    "name": "Desarrollo Web Full Stack – Nivel Intermedio",
+    "issuer": "INDOTEL",
+    "date": "Feb. 2026",
+    "status": "completed"
+  },
+  {
+    "id": "itla-db",
+    "name": "Administración de Base de Datos I",
+    "issuer": "ITLA",
+    "date": "Mar. 2026",
+    "status": "completed"
+  },
+  {
+    "id": "coursera-ti",
+    "name": "Administración de las Tecnologías de la Información",
+    "issuer": "Coursera",
+    "date": "Mar. 2026",
+    "status": "completed"
+  },
+  {
+    "id": "efset-b1",
+    "name": "Certificado EF SET B1",
+    "issuer": "EF SET",
+    "date": "Abr. 2026",
+    "status": "completed"
+  },
+  {
+    "id": "infotep-db",
+    "name": "Administración de Bases de Datos",
+    "issuer": "INFOTEP",
+    "date": "2026",
+    "status": "pending"
+  },
+  {
+    "id": "itla-csharp",
+    "name": "C# .NET Básico",
+    "issuer": "ITLA",
+    "date": "2026",
+    "status": "pending"
+  }
+]

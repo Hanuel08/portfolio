@@ -1,0 +1,18 @@
+[
+  { "id": "html", "name": "HTML5", "bg": "#e34f26", "color": "#fff" },
+  { "id": "css", "name": "CSS3", "bg": "#1572b6", "color": "#fff" },
+  { "id": "javascript", "name": "JavaScript", "bg": "#f7df1e", "color": "#0b1220" },
+  { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
+  { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" },
+  { "id": "sass", "name": "SASS", "bg": "#cc6699", "color": "#fff" },
+  { "id": "php", "name": "PHP", "bg": "#777bb4", "color": "#fff" },
+  { "id": "csharp", "name": "C#", "bg": "#239120", "color": "#fff" },
+  { "id": "express", "name": "Express.js", "bg": "#000000", "color": "#fff" },
+  { "id": "mysql", "name": "MySQL", "bg": "#4479a1", "color": "#fff" },
+  { "id": "mariadb", "name": "MariaDB", "bg": "#003545", "color": "#fff" },
+  { "id": "sql", "name": "SQL", "bg": "#336791", "color": "#fff" },
+  { "id": "rest", "name": "REST APIs", "bg": "#2563eb", "color": "#fff" },
+  { "id": "git", "name": "Git", "bg": "#f05032", "color": "#fff" },
+  { "id": "github", "name": "GitHub", "bg": "#181717", "color": "#fff" },
+  { "id": "linux", "name": "Linux", "bg": "#fcc624", "color": "#0b1220" }
+]

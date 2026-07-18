@@ -1,0 +1,58 @@
+{
+  "name": "Hanuel José Martínez Guzmán",
+  "role": "Desarrollador",
+  "photo": "/images/avatar.svg",
+  "shortBio": "Estudiante de Ingeniería de Software apasionado por el desarrollo Full Stack y la creación de aplicaciones web.",
+  "location": "Santo Domingo, República Dominicana",
+  "links": [
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/hanuel-martinez/",
+      "icon": "linkedin",
+      "bg": "#0A66C2",
+      "color": "#ffffff",
+      "hoverBg": "#004182"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/Hanuel08",
+      "icon": "github",
+      "bg": "#24292f",
+      "color": "#ffffff",
+      "hoverBg": "#000000"
+    },
+    {
+      "id": "whatsapp",
+      "label": "WhatsApp",
+      "url": "https://wa.me/18295057048",
+      "icon": "whatsapp",
+      "bg": "#25D366",
+      "color": "#000000",
+      "hoverBg": "#1da851"
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "url": "mailto:hanuelwork0405@gmail.com",
+      "icon": "mail",
+      "bg": "#c74204",
+      "color": "#ffffff",
+      "hoverBg": "#1d4ed8"
+    },
+    {
+      "id": "cv",
+      "label": "CV",
+      "url": "/cv.pdf",
+      "icon": "file",
+      "download": true,
+      "bg": "#0f172a",
+      "color": "#ffffff",
+      "hoverBg": "#1e293b",
+      "border": "#334155"
+    }
+  ],
+  "email": "hanuelwork0405@gmail.com",
+  "phone": "+1 829-505-7048"
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "kokoro",
+    "name": "Kokoro",
+    "shortDescription": "Asistente virtual con IA: chat en tiempo real con streaming e integración de múltiples APIs.",
+    "cover": "/images/projects/kokoro-cover.svg",
+    "demoUrl": "",
+    "githubUrl": "https://github.com/Hanuel08/kokoro",
+    "technologies": [
+      { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
+      { "id": "express", "name": "Express.js", "bg": "#000000", "color": "#fff" },
+      { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" },
+      { "id": "javascript", "name": "JavaScript", "bg": "#f7df1e", "color": "#0b1220" }
+    ],
+    "longDescription": "Kokoro es una aplicación web Full Stack con React y Express.js que integra modelos de IA mediante OpenRouter.\n\nImplementé chat en tiempo real con streaming de respuestas e integré múltiples APIs (OpenRouter, Hugging Face y Unreal Speech). La interfaz es moderna con Tailwind CSS y una arquitectura modular para frontend y backend.",
+    "images": [
+      "/images/projects/kokoro-1.svg",
+      "/images/projects/kokoro-2.svg"
+    ],
+    "year": "2026"
+  },
+  {
+    "id": "mini-shop",
+    "name": "Mini Shop",
+    "shortDescription": "Tienda virtual con CRUD de productos, arquitectura MVC y stack PHP + JavaScript + SQL.",
+    "cover": "/images/projects/minishop-cover.svg",
+    "demoUrl": "",
+    "githubUrl": "https://github.com/Hanuel08/online-shop",
+    "technologies": [
+      { "id": "php", "name": "PHP", "bg": "#777bb4", "color": "#fff" },
+      { "id": "javascript", "name": "JavaScript", "bg": "#f7df1e", "color": "#0b1220" },
+      { "id": "mysql", "name": "SQL", "bg": "#4479a1", "color": "#fff" }
+    ],
+    "longDescription": "Mini Shop es una tienda virtual desarrollada con PHP, JavaScript y SQL.\n\nIncluye operaciones CRUD y gestión de productos bajo arquitectura MVC, con integración entre frontend, backend y base de datos. Proyecto en desarrollo activo.",
+    "images": [
+      "/images/projects/minishop-1.svg"
+    ],
+    "year": "2026 – Actualidad"
+  },
+  {
+    "id": "admin-dashboard",
+    "name": "Admin Dashboard",
+    "shortDescription": "Panel administrativo con React y PHP: usuarios, datos, filtrado y búsqueda.",
+    "cover": "/images/projects/dashboard-cover.svg",
+    "demoUrl": "",
+    "githubUrl": "https://github.com/Hanuel08/admin-dashboard",
+    "technologies": [
+      { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
+      { "id": "php", "name": "PHP", "bg": "#777bb4", "color": "#fff" },
+      { "id": "rest", "name": "REST APIs", "bg": "#2563eb", "color": "#fff" }
+    ],
+    "longDescription": "Panel administrativo construido con React y PHP.\n\nIncluye componentes reutilizables, integración con APIs REST, gestión de usuarios y datos, además de filtrado y búsqueda. Proyecto en desarrollo activo.",
+    "images": [
+      "/images/projects/dashboard-1.svg"
+    ],
+    "year": "2026 – Actualidad"
+  },
+  {
+    "id": "contact-form",
+    "name": "Contact Form",
+    "shortDescription": "CRUD de contactos con React, Vite y Tailwind: validaciones, JSON Server y modo oscuro.",
+    "cover": "/images/projects/contactform-cover.svg",
+    "demoUrl": "",
+    "githubUrl": "https://github.com/Hanuel08/contact-form",
+    "technologies": [
+      { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
+      { "id": "vite", "name": "Vite", "bg": "#646cff", "color": "#fff" },
+      { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" }
+    ],
+    "longDescription": "Aplicación CRUD de contactos con React, Vite y Tailwind CSS.\n\nIncluye formularios con validaciones y edición de registros, integración de JSON Server mediante una capa HTTP reutilizable, modo oscuro y diseño responsive.",
+    "images": [
+      "/images/projects/contactform-1.svg"
+    ],
+    "year": "2026"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "title": "Hanuel Martínez — Portfolio",
+  "nav": [
+    { "id": "about", "label": "Sobre mí", "href": "/#about", "section": "about" },
+    { "id": "education", "label": "Educación", "href": "/#education", "section": "education" },
+    { "id": "projects", "label": "Proyectos", "href": "/#projects", "section": "projects" },
+    { "id": "skills", "label": "Tecnologías", "href": "/#skills", "section": "skills" },
+    { "id": "certifications", "label": "Certificaciones", "href": "/#certifications", "section": "certifications" },
+    { "id": "contact", "label": "Contacto", "href": "/#contact", "section": "contact" }
+  ],
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto o una oportunidad? Déjame un mensaje y te respondo pronto.",
+    "cta": "Enviar mensaje",
+    "success": "¡Mensaje enviado! Te responderé pronto.",
+    "error": "No se pudo enviar. Inténtalo de nuevo o escríbeme directamente al correo.",
+    "fields": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿Sobre qué quieres hablar?",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame un poco más…",
+      "sending": "Enviando…"
+    }
+  },
+  "footer": {
+    "tagline": "Hecho con React, Tailwind y ganas de aprender.",
+    "copyright": "Todos los derechos reservados."
+  },
+  "sections": {
+    "education": {
+      "title": "Educación",
+      "subtitle": "Mi formación académica."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "subtitle": "Algunos trabajos que he construido."
+    },
+    "skills": {
+      "title": "Tecnologías",
+      "subtitle": "Herramientas con las que trabajo."
+    },
+    "certifications": {
+      "title": "Certificaciones",
+      "subtitle": "Cursos y credenciales."
+    }
+  }
+}
