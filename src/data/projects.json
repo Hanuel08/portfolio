@@ -77,7 +77,7 @@
   {
     "id": "song-search",
     "name": "Song Search",
-    "shortDescription": "Buscador de canciones con React, Tailwind y Spotify API.",
+    "shortDescription": "Buscador de canciones con React, Tailwind, lyrics.ovh y TheAudioDB.",
     "cover": "/images/projects/song-search-dark.png",
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/song-search",
@@ -85,7 +85,7 @@
       { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
       { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" }
     ],
-    "longDescription": "Buscador de canciones con React, Tailwind y Spotify API.\n\nIncluye búsqueda de canciones, filtrado por género, álbum, artista y más, integración de Spotify API para obtener más datos y diseño responsive.",
+    "longDescription": "Buscador de canciones con React y Tailwind.\n\nIncluye búsqueda de canciones a través de la integración de APIs de canciones como TheAudioDB y lyrics.ovh para obtener más datos y diseño responsive.",
     "images": [
       "/images/projects/song-search-dark.png",
       "/images/projects/song-search-white.png",
