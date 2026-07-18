@@ -3,7 +3,7 @@
     "id": "kokoro",
     "name": "Kokoro",
     "shortDescription": "Asistente virtual con IA: chat en tiempo real con streaming e integración de múltiples APIs.",
-    "cover": "/images/projects/kokoro-cover.svg",
+    "cover": "/images/projects/kokoro-main-1.png",
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/kokoro",
     "technologies": [
@@ -14,16 +14,17 @@
     ],
     "longDescription": "Kokoro es una aplicación web Full Stack con React y Express.js que integra modelos de IA mediante OpenRouter.\n\nImplementé chat en tiempo real con streaming de respuestas e integré múltiples APIs (OpenRouter, Hugging Face y Unreal Speech). La interfaz es moderna con Tailwind CSS y una arquitectura modular para frontend y backend.",
     "images": [
-      "/images/projects/kokoro-1.svg",
-      "/images/projects/kokoro-2.svg"
+      "/images/projects/kokoro-main-1.png",
+      "/images/projects/kokoro-main-2.png",
+      "/images/projects/kokoro-config.png"
     ],
     "year": "2026"
   },
   {
-    "id": "mini-shop",
+    "id": "online-shop",
     "name": "Mini Shop",
     "shortDescription": "Tienda virtual con CRUD de productos, arquitectura MVC y stack PHP + JavaScript + SQL.",
-    "cover": "/images/projects/minishop-cover.svg",
+    "cover": "/images/projects/online-shop-progress.png",
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/online-shop",
     "technologies": [
@@ -59,7 +60,7 @@
     "id": "contact-form",
     "name": "Contact Form",
     "shortDescription": "CRUD de contactos con React, Vite y Tailwind: validaciones, JSON Server y modo oscuro.",
-    "cover": "/images/projects/contactform-cover.svg",
+    "cover": "/images/projects/contact-form.png",
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/contact-form",
     "technologies": [
@@ -70,6 +71,25 @@
     "longDescription": "Aplicación CRUD de contactos con React, Vite y Tailwind CSS.\n\nIncluye formularios con validaciones y edición de registros, integración de JSON Server mediante una capa HTTP reutilizable, modo oscuro y diseño responsive.",
     "images": [
       "/images/projects/contactform-1.svg"
+    ],
+    "year": "2026"
+  },
+  {
+    "id": "song-search",
+    "name": "Song Search",
+    "shortDescription": "Buscador de canciones con React, Tailwind y Spotify API.",
+    "cover": "/images/projects/song-search-dark.png",
+    "demoUrl": "",
+    "githubUrl": "https://github.com/Hanuel08/song-search",
+    "technologies": [
+      { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
+      { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" }
+    ],
+    "longDescription": "Buscador de canciones con React, Tailwind y Spotify API.\n\nIncluye búsqueda de canciones, filtrado por género, álbum, artista y más, integración de Spotify API para obtener más datos y diseño responsive.",
+    "images": [
+      "/images/projects/song-search-dark.png",
+      "/images/projects/song-search-white.png",
+      "/images/projects/song-search-search.png"
     ],
     "year": "2026"
   }
