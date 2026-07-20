@@ -12,6 +12,7 @@
   { "id": "mariadb", "name": "MariaDB", "bg": "#003545", "color": "#fff" },
   { "id": "sql", "name": "SQL", "bg": "#336791", "color": "#fff" },
   { "id": "rest", "name": "REST APIs", "bg": "#2563eb", "color": "#fff" },
+  { "id": "tabler", "name": "Tabler Icons", "bg": "#3b82f6", "color": "#fff" },
   { "id": "git", "name": "Git", "bg": "#f05032", "color": "#fff" },
   { "id": "github", "name": "GitHub", "bg": "#181717", "color": "#fff" },
   { "id": "linux", "name": "Linux", "bg": "#fcc624", "color": "#0b1220" }

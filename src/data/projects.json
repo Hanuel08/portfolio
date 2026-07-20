@@ -2,17 +2,16 @@
   {
     "id": "kokoro",
     "name": "Kokoro",
-    "shortDescription": "Asistente virtual con IA: chat en tiempo real con streaming e integración de múltiples APIs.",
+    "shortDescription": "Asistente virtual con IA usando modelos Live2D 3D, detección de emociones, múltiples personajes y texto a voz.",
     "cover": "/images/projects/kokoro-main-1.png",
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/kokoro",
     "technologies": [
       { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
-      { "id": "express", "name": "Express.js", "bg": "#000000", "color": "#fff" },
       { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" },
-      { "id": "javascript", "name": "JavaScript", "bg": "#f7df1e", "color": "#0b1220" }
+      { "id": "express", "name": "Express.js", "bg": "#000000", "color": "#fff" }
     ],
-    "longDescription": "Kokoro es una aplicación web Full Stack con React y Express.js que integra modelos de IA mediante OpenRouter.\n\nImplementé chat en tiempo real con streaming de respuestas e integré múltiples APIs (OpenRouter, Hugging Face y Unreal Speech). La interfaz es moderna con Tailwind CSS y una arquitectura modular para frontend y backend.",
+    "longDescription": "Kokoro es una aplicación de chat con asistentes virtuales 3D que utilizan modelos Live2D para ofrecer una experiencia de conversación interactiva, emocional y con voz.\n\nCaracterísticas principales:\n- Chat con IA — Conversaciones fluidas con streaming de respuestas usando modelos de OpenRouter\n- Avatares Live2D — Personajes 3D que reaccionan emocionalmente a la conversación en tiempo real\n- Detección de emociones — Analiza el contexto y expresa 11 emociones (feliz, triste, enojada, sorprendida, emocionada, miedo, amor, odio, asco, pensativa, neutral). Usa HuggingFace por defecto con OpenRouter como respaldo\n- Múltiples personajes — 9 modelos Live2D disponibles: Hiyori, Haru, Hibiki, Mao, Miku, Natori, Rice, Wanko y Mark\n- Personalidades adaptativas — Cada personaje tiene una personalidad distinta según su modelo\n- Texto a voz (TTS) — Reproduce en voz alta las respuestas usando Unreal Speech v8 con más de 50 voces en múltiples idiomas\n- Configuración de voz — Activa/desactiva el TTS y elige la voz del personaje\n- Tema claro/oscuro — Alterna entre modo claro y oscuro\n- Subir foto de perfil — El usuario puede subir su propia foto\n- Configuración flexible — Elige modelo de IA, nombre del personaje, imagen de perfil personalizada por modelo y más\n\nTecnologías: React 19, Vite, Tailwind CSS v4, Pixi.js 6, pixi-live2d-display, Express.js 5, OpenRouter SDK, Hugging Face Inference, Unreal Speech v8, Multer, Helmet, express-rate-limit.",
     "images": [
       "/images/projects/kokoro-main-1.png",
       "/images/projects/kokoro-main-2.png",
@@ -28,9 +27,11 @@
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/online-shop",
     "technologies": [
+      { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
+      { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" },
       { "id": "php", "name": "PHP", "bg": "#777bb4", "color": "#fff" },
-      { "id": "javascript", "name": "JavaScript", "bg": "#f7df1e", "color": "#0b1220" },
-      { "id": "mysql", "name": "SQL", "bg": "#4479a1", "color": "#fff" }
+      { "id": "mysql", "name": "SQL", "bg": "#4479a1", "color": "#fff" },
+      { "id": "rest", "name": "REST APIs", "bg": "#2563eb", "color": "#fff" }
     ],
     "longDescription": "Mini Shop es una tienda virtual desarrollada con PHP, JavaScript y SQL.\n\nIncluye operaciones CRUD y gestión de productos bajo arquitectura MVC, con integración entre frontend, backend y base de datos. Proyecto en desarrollo activo.",
     "images": [
@@ -47,7 +48,9 @@
     "githubUrl": "https://github.com/Hanuel08/admin-dashboard",
     "technologies": [
       { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
+      { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" },
       { "id": "php", "name": "PHP", "bg": "#777bb4", "color": "#fff" },
+      { "id": "mysql", "name": "SQL", "bg": "#4479a1", "color": "#fff" },
       { "id": "rest", "name": "REST APIs", "bg": "#2563eb", "color": "#fff" }
     ],
     "longDescription": "Panel administrativo construido con React y PHP.\n\nIncluye componentes reutilizables, integración con APIs REST, gestión de usuarios y datos, además de filtrado y búsqueda. Proyecto en desarrollo activo.",
@@ -59,7 +62,7 @@
   {
     "id": "contact-form",
     "name": "Contact Form",
-    "shortDescription": "CRUD de contactos con React, Vite y Tailwind: validaciones, JSON Server y modo oscuro.",
+    "shortDescription": "CRUD de contactos con React, Vite y Tailwind: formulario con validaciones, tabla editable, modo oscuro y diseño responsive.",
     "cover": "/images/projects/contact-form.png",
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/contact-form",
@@ -68,9 +71,9 @@
       { "id": "vite", "name": "Vite", "bg": "#646cff", "color": "#fff" },
       { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" }
     ],
-    "longDescription": "Aplicación CRUD de contactos con React, Vite y Tailwind CSS.\n\nIncluye formularios con validaciones y edición de registros, integración de JSON Server mediante una capa HTTP reutilizable, modo oscuro y diseño responsive.",
+    "longDescription": "Mini proyecto React con Vite y Tailwind CSS: formulario para crear contactos (nombre, teléfono, email, edad, departamento, términos), listado en tabla con acciones de editar y eliminar, modo oscuro con persistencia en localStorage, UI con tarjetas, header fijo y footer con accesos rápidos. Diseño responsive.\n\nRequiere una API REST en http://localhost:5000/users (JSON Server u otro backend compatible). Incluye datos de ejemplo en src/api/db.json.\n\nProyecto de práctica, no está pensado para producción sin revisar seguridad y validación del backend.",
     "images": [
-      "/images/projects/contactform-1.svg"
+      "/images/projects/contact-form.png"
     ],
     "year": "2026"
   },
@@ -83,9 +86,10 @@
     "githubUrl": "https://github.com/Hanuel08/song-search",
     "technologies": [
       { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
+      { "id": "vite", "name": "Vite", "bg": "#646cff", "color": "#fff" },
       { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" }
     ],
-    "longDescription": "Buscador de canciones con React y Tailwind.\n\nIncluye búsqueda de canciones a través de la integración de APIs de canciones como TheAudioDB y lyrics.ovh para obtener más datos y diseño responsive.",
+    "longDescription": "Mini práctica en React para buscar letras de canciones y ver una ficha breve del artista. No es un producto en producción: sirve para practicar estado, efectos, formularios y estilos.\n\nStack: React 19, Vite 8, Tailwind CSS 4.\n\nAPIs (solo lectura):\n- Letras: lyrics.ovh\n- Artista / biografía: TheAudioDB\n\nIncluye modo oscuro conmutado desde la cabecera, diseño responsive y resultados con letra y datos del intérprete.",
     "images": [
       "/images/projects/song-search-dark.png",
       "/images/projects/song-search-white.png",
@@ -95,22 +99,40 @@
   },
   {
     "id": "ak820-keyboard",
-    "name": "AK820 Mechanical Keyboard Simulator & Tester",
-    "shortDescription": "Simulador visual y auditivo del teclado mecánico AK820. Permite escribir con el teclado físico o hacer clic en las teclas virtuales para probar sonidos, efectos de retroiluminación RGB y estadísticas en tiempo real.",
+    "name": "AK820 Mechanical Keyboard Simulator",
+    "shortDescription": "Simulador visual y auditivo del teclado mecánico AK820.",
     "cover": "/images/projects/keyboard-dark.png",
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/keyboard-ak820",
     "technologies": [
       { "id": "html", "name": "HTML5", "bg": "#e34f26", "color": "#fff" },
       { "id": "scss", "name": "SCSS", "bg": "#cc6699", "color": "#fff" },
-      { "id": "javascript", "name": "JavaScript", "bg": "#f7df1e", "color": "#0b1220" },
-      { "id": "tabler", "name": "Tabler Icons", "bg": "#3b82f6", "color": "#fff" }
+      { "id": "javascript", "name": "JavaScript", "bg": "#f7df1e", "color": "#0b1220" }
     ],
-    "longDescription": "Simulador visual y auditivo del teclado mecánico AK820. Permite escribir con el teclado físico o hacer clic en las teclas virtuales para probar sonidos, efectos de retroiluminación RGB y estadísticas de escritura en tiempo real.\n\nCaracterísticas:\n- Teclado virtual interactivo con diseño fiel al AK820 (TKL + numpad layout)\n- Sonidos de teclas realistas (simple, espacio, enter, backspace)\n- Retroiluminación RGB con 5 modos: RGB Wave (arcoíris animado), Reactive Pulse (responde al teclar), Solid Cyan, Solid Magenta, Backlight Off\n- Soporte de teclado físico con feedback visual sincronizado\n- Modo oscuro / claro con transiciones suaves\n- Estadísticas en tiempo real: WPM y contador de teclas\n- Consola de terminal con texto monoespaciado\n- Controles de volumen con slider y toggle de sonido\n- Indicadores LED (Caps Lock, Win, OS)\n- Atajos de función via teclas F1-F8\n- Toast notifications para feedback de acciones\n\nUso: Abrir index.html en un navegador. No requiere servidor local ni dependencias.",
+    "longDescription": "Simulador visual y auditivo del teclado mecánico AK820. Permite escribir con el teclado físico o hacer clic en las teclas virtuales para probar sonidos, efectos de retroiluminación RGB y estadísticas de escritura en tiempo real.\n\nCaracterísticas:\n\n- Teclado virtual interactivo con diseño fiel al AK820\n\n- Sonidos de teclas realistas (simple, espacio, enter, backspace)\n\n- Retroiluminación RGB con 5 modos: RGB Wave (arcoíris animado), Reactive Pulse (responde al teclar), Solid Cyan, Solid Magenta, Backlight Off\n\n- Soporte de teclado físico con feedback visual sincronizado\n\n- Modo oscuro / claro con transiciones suaves\n\n- Estadísticas en tiempo real: WPM y contador de teclas\n\n- Consola de terminal con texto monoespaciado\n\n- Controles de volumen con slider y toggle de sonido\n\n- Indicadores LED (Caps Lock, Win, OS)\n\n- Atajos de función via teclas F1-F8\n\n- Toast notifications para feedback de acciones\n\nAtajos de teclado: F1 (tema), F2 (bajar volumen), F3 (subir volumen), F4 (toggle sonido), F6 (ciclar RGB), F7 (copiar texto), F8 (limpiar).\n\nUso: Abrir index.html en un navegador. No requiere servidor local ni dependencias.",
     "images": [
       "/images/projects/keyboard-rgb.png",
       "/images/projects/keyboard-white.png",
       "/images/projects/keyboard-dark.png"
+    ],
+    "year": "2026"
+  },
+  {
+    "id": "game-of-life",
+    "name": "Conway's Game of Life",
+    "shortDescription": "Implementación interactiva del autómata celular de Conway con cuadrícula dinámica.",
+    "cover": "/images/projects/conway-dark.png",
+    "demoUrl": "",
+    "githubUrl": "https://github.com/Hanuel08/conway-game",
+    "technologies": [
+      { "id": "html", "name": "HTML5", "bg": "#e34f26", "color": "#fff" },
+      { "id": "css3", "name": "CSS3", "bg": "#2965f1", "color": "#fff" },
+      { "id": "javascript", "name": "JavaScript", "bg": "#f7df1e", "color": "#0b1220" }
+    ],
+    "longDescription": "Implementación moderna e interactiva del Juego de la Vida de Conway, un autómata celular sin jugadores donde las células viven, mueren o se reproducen según reglas simples.\n\nCaracterísticas:\n\n- Tamaño de cuadrícula dinámico — Configura filas y columnas de 5 a 100\n\n- Modo oscuro y claro — Alterna entre temas, persistente en localStorage\n\n- Color personalizable — Elige cualquier color para las células vivas, persistente\n\n- Reproducción / Pausa — Avance automático con velocidad ajustable\n\n- Arrastrar para pintar — Haz clic y arrastra para establecer células vivas o muertas manualmente\n\n- Aleatorizar — Rellena la cuadrícula con un porcentaje configurable de células vivas\n\n- Contador de generaciones — Muestra la generación actual y el número de células vivas\n\n- Diseño responsive — Funciona en desktop y móvil\n\n- Atajos de teclado — Controla el juego sin usar el ratón\n\nReglas:\n- Una célula viva con 2 o 3 vecinas sobrevive\n- Una célula muerta con exactamente 3 vecinas se convierte en vida\n- El resto de células vivas mueren, y las muertas permanecen muertas\n\nControles: Rows/Columns, Speed, Fill %, Cell Color, Apply Size, Play, Next Gen, Clear, Random.\n\nAtajos: Space (Play/Pause), N (Next Generation), C (Clear), R (Randomize).\n\nTecnologías: HTML5, CSS3 (variables CSS, Grid, Flexbox), JavaScript vanilla (ES6+). Sin dependencias.",
+    "images": [
+      "/images/projects/conway-dark.png",
+      "/images/projects/conway-white.png"
     ],
     "year": "2026"
   }

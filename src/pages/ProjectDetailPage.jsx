@@ -104,7 +104,7 @@ export function ProjectDetailPage() {
       </div>
 
       <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
-        <div className="space-y-5 text-center text-base leading-relaxed text-ink-muted sm:text-lg">
+        <div className="space-y-5 text-base leading-relaxed text-ink-muted sm:text-lg">
           {paragraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
