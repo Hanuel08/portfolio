@@ -21,11 +21,12 @@
   },
   {
     "id": "online-shop",
-    "name": "Mini Shop",
+    "name": "Online Shop",
     "shortDescription": "Tienda virtual con CRUD de productos, arquitectura MVC y stack PHP + JavaScript + SQL.",
     "cover": "/images/projects/online-shop-progress.png",
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/online-shop",
+    "inDevelopment": true,
     "technologies": [
       { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
       { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" },
@@ -46,6 +47,7 @@
     "cover": "/images/projects/dashboard-cover.svg",
     "demoUrl": "",
     "githubUrl": "https://github.com/Hanuel08/admin-dashboard",
+    "inDevelopment": true,
     "technologies": [
       { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
       { "id": "tailwind", "name": "Tailwind CSS", "bg": "#38bdf8", "color": "#0b1220" },
@@ -64,7 +66,7 @@
     "name": "Contact Form",
     "shortDescription": "CRUD de contactos con React, Vite y Tailwind: formulario con validaciones, tabla editable, modo oscuro y diseño responsive.",
     "cover": "/images/projects/contact-form.png",
-    "demoUrl": "",
+    "demoUrl": "https://contact-form-v.netlify.app/",
     "githubUrl": "https://github.com/Hanuel08/contact-form",
     "technologies": [
       { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
@@ -82,7 +84,7 @@
     "name": "Song Search",
     "shortDescription": "Buscador de canciones con React, Tailwind, lyrics.ovh y TheAudioDB.",
     "cover": "/images/projects/song-search-dark.png",
-    "demoUrl": "",
+    "demoUrl": "https://song-search-v.netlify.app/",
     "githubUrl": "https://github.com/Hanuel08/song-search",
     "technologies": [
       { "id": "react", "name": "React", "bg": "#61dafb", "color": "#0b1220" },
@@ -102,7 +104,7 @@
     "name": "AK820 Mechanical Keyboard Simulator",
     "shortDescription": "Simulador visual y auditivo del teclado mecánico AK820.",
     "cover": "/images/projects/keyboard-dark.png",
-    "demoUrl": "",
+    "demoUrl": "https://keyboard-ak820.netlify.app/",
     "githubUrl": "https://github.com/Hanuel08/keyboard-ak820",
     "technologies": [
       { "id": "html", "name": "HTML5", "bg": "#e34f26", "color": "#fff" },
@@ -122,7 +124,7 @@
     "name": "Conway's Game of Life",
     "shortDescription": "Implementación interactiva del autómata celular de Conway con cuadrícula dinámica.",
     "cover": "/images/projects/conway-dark.png",
-    "demoUrl": "",
+    "demoUrl": "https://conway-game-v.netlify.app/",
     "githubUrl": "https://github.com/Hanuel08/conway-game",
     "technologies": [
       { "id": "html", "name": "HTML5", "bg": "#e34f26", "color": "#fff" },

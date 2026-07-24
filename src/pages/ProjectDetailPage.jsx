@@ -55,6 +55,11 @@ export function ProjectDetailPage() {
 
           <div className="mt-6 grid items-center gap-8 lg:grid-cols-[1.2fr_1fr]">
             <div className="text-center lg:text-left">
+              {project.inDevelopment && (
+                <span className="mb-3 inline-flex rounded-md bg-amber-500/95 px-2.5 py-1 text-xs font-semibold tracking-wide text-white shadow-sm">
+                  En desarrollo
+                </span>
+              )}
               <h1 className="font-serif text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
                 {project.name}
               </h1>
@@ -69,6 +74,17 @@ export function ProjectDetailPage() {
               </div>
 
               <div className="mt-6 flex flex-wrap justify-center gap-3 lg:justify-start">
+                {project.githubUrl && (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-4 py-2.5 text-sm font-semibold text-ink hover:border-accent hover:text-accent"
+                  >
+                    <IconBrandGithub size={16} stroke={1.75} />
+                    GitHub
+                  </a>
+                )}
                 {project.demoUrl && (
                   <a
                     href={project.demoUrl}
@@ -77,18 +93,7 @@ export function ProjectDetailPage() {
                     className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-white hover:brightness-110"
                   >
                     <IconExternalLink size={16} stroke={1.75} />
-                    Ver demo
-                  </a>
-                )}
-                {project.githubUrl && (
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-4 py-2.5 text-sm font-semibold text-ink hover:border-accent hover:text-accent mt-6"
-                  >
-                    <IconBrandGithub size={16} stroke={1.75} />
-                    GitHub
+                    Deploy
                   </a>
                 )}
               </div>
