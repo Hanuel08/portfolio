@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   IconArrowLeft,
@@ -11,10 +11,27 @@ import projects from "../data/projects.json";
 export function ProjectDetailPage() {
   const { id } = useParams();
   const project = projects.find((p) => p.id === id);
+  const [lightboxSrc, setLightboxSrc] = useState(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
+
+  useEffect(() => {
+    if (!lightboxSrc) return;
+
+    const onKeyDown = (event) => {
+      if (event.key === "Escape") setLightboxSrc(null);
+    };
+
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", onKeyDown);
+
+    return () => {
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", onKeyDown);
+    };
+  }, [lightboxSrc]);
 
   if (!project) {
     return (
@@ -79,7 +96,7 @@ export function ProjectDetailPage() {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-4 py-2.5 text-sm font-semibold text-ink hover:border-accent hover:text-accent"
+                    className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface px-4 py-2.5 text-sm font-semibold text-ink hover:border-gray-600 hover:text-gray-300"
                   >
                     <IconBrandGithub size={16} stroke={1.75} />
                     GitHub
@@ -90,7 +107,7 @@ export function ProjectDetailPage() {
                     href={project.demoUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-white hover:brightness-110"
+                    className="border border-gray-400 inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-white hover:brightness-110"
                   >
                     <IconExternalLink size={16} stroke={1.75} />
                     Deploy
@@ -99,11 +116,17 @@ export function ProjectDetailPage() {
               </div>
             </div>
 
-            <img
-              src={project.cover}
-              alt={`Portada de ${project.name}`}
-              className="w-full rounded-2xl border border-line object-cover shadow-lg"
-            />
+            <button
+              type="button"
+              onClick={() => setLightboxSrc(project.cover)}
+              className="cursor-zoom-in overflow-hidden rounded-2xl border border-line shadow-lg"
+            >
+              <img
+                src={project.cover}
+                alt={`Portada de ${project.name}`}
+                className="w-full object-cover"
+              />
+            </button>
           </div>
         </div>
       </div>
@@ -122,18 +145,41 @@ export function ProjectDetailPage() {
             </h2>
             <div className="grid gap-4 sm:grid-cols-2">
               {project.images.map((src) => (
-                <img
+                <button
+                  type="button"
                   key={src}
-                  src={src}
-                  alt={`Captura de ${project.name}`}
-                  className="w-full rounded-xl border border-line object-cover"
-                  loading="lazy"
-                />
+                  onClick={() => setLightboxSrc(src)}
+                  className="cursor-pointer overflow-hidden rounded-xl border border-line"
+                >
+                  <img
+                    src={src}
+                    alt={`Captura de ${project.name}`}
+                    className="w-full object-cover"
+                    loading="lazy"
+                  />
+                </button>
               ))}
             </div>
           </div>
         )}
       </div>
+
+      {lightboxSrc && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Vista ampliada de la imagen"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 sm:p-8"
+          onClick={() => setLightboxSrc(null)}
+        >
+          <img
+            src={lightboxSrc}
+            alt={`Vista ampliada de ${project.name}`}
+            className="scale-[0.7] border border-gray-400 max-h-full max-w-full rounded-lg object-contain shadow-2xl"
+            onClick={(event) => event.stopPropagation()}
+          />
+        </div>
+      )}
     </article>
   );
 }
